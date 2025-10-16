@@ -3,14 +3,12 @@
 *.prefab merge=unityyamlmerge eol=lf
 *.asset merge=unityyamlmerge eol=lf
 *.mat merge=unityyamlmerge eol=lf
-
 # ===== Code & Config =====
 *.cs diff=csharp text eol=lf
 *.shader diff=csharp text eol=lf
 *.json diff=json text eol=lf
 *.txt text eol=lf
 *.md text eol=lf
-
 # ===== Large Binary via Git LFS =====
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
